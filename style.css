@@ -4,44 +4,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 /* Fonts & Colors */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff8f0;
-=======
-  font-family: "Segoe UI", Tahoma, sans-serif;
-}
-
-body {
-  background: #fdfdfd;
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
   color: #333;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-<<<<<<< HEAD
   background: #ff7f50;
   color: white;
-=======
   background: #ff8c42;
   color: #fff;
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-<<<<<<< HEAD
 .logo {
-=======
 header .logo {
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -49,7 +35,6 @@ header .logo {
 nav ul {
   list-style: none;
   display: flex;
-<<<<<<< HEAD
   gap: 1.5rem;
 }
 
@@ -85,7 +70,6 @@ nav a:hover {
 .hero-content {
   position: relative;
   z-index: 1;
-=======
   gap: 1rem;
 }
 
@@ -108,7 +92,6 @@ nav button:hover, nav a:hover {
   color: white;
   text-align: center;
   padding: 5rem 2rem;
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
 }
 
 .hero h1 {
@@ -116,7 +99,6 @@ nav button:hover, nav a:hover {
   margin-bottom: 1rem;
 }
 
-<<<<<<< HEAD
 .hero button {
   background: #ffd700;
   border: none;
@@ -138,7 +120,6 @@ nav button:hover, nav a:hover {
   margin: 2rem 0 1rem;
   font-size: 2rem;
   color: #ff7f50;
-=======
 .hero .cta {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
@@ -151,12 +132,10 @@ nav button:hover, nav a:hover {
 
 .hero .cta:hover {
   background: #ffd84d;
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
 }
 
 /* Products */
 .products {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
@@ -242,7 +221,6 @@ nav button:hover, nav a:hover {
 
 .primary-btn {
   background: #ff7f50 !important;
-=======
   padding: 3rem 2rem;
   text-align: center;
 }
@@ -317,18 +295,15 @@ form button {
 
 form button:hover {
   background: #e67e2a;
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
 }
 
 /* Footer */
 footer {
-<<<<<<< HEAD
   background: #ff7f50;
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-=======
   background: #333;
   color: #fff;
   text-align: center;
@@ -390,5 +365,4 @@ footer {
 }
 .cart-bounce {
   animation: bounce 0.3s;
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
 }
