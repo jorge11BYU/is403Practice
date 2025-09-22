@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PawPal Pet Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 PawPal Pet Store</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#" id="cart-link">Cart 🛒 <span id="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Everything Your Pet Deserves!</h1>
+      <p>Toys, treats, and accessories for your furry friends 🐶🐱</p>
+      <button id="shop-now">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <main id="products-page">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products">
+      <div class="product" data-name="Chew Toy" data-price="10">
+        <img src="https://images.unsplash.com/photo-1601758173928-3c66e4f72b77?w=400" alt="Chew Toy">
+        <h3>Chew Toy</h3>
+        <p class="price">$10.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Cat Scratcher" data-price="25">
+        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a5?w=400" alt="Cat Scratcher">
+        <h3>Cat Scratcher</h3>
+        <p class="price">$25.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Pet Bed" data-price="50">
+        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a5?w=400" alt="Pet Bed">
+        <h3>Pet Bed</h3>
+        <p class="price">$50.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Pet Food Pack" data-price="30">
+        <img src="https://images.unsplash.com/photo-1610022438998-37031459c52e?w=400" alt="Pet Food Pack">
+        <h3>Pet Food Pack</h3>
+        <p class="price">$30.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Cart Page -->
+  <section id="cart-page" class="hidden">
+    <h2 class="section-title">Your Cart</h2>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h3 id="cart-total">Total: $0.00</h3>
+    <button id="back-to-shop" class="primary-btn">Back to Shop</button>
+  </section>
+
+  <footer>
+    <p>© 2025 PawPal Pet Store | Love your pets 🐾</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
