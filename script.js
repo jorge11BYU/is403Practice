@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let cart = [];
 
 // Add to Cart functionality
@@ -61,7 +60,6 @@ function updateCartDisplay() {
 // Smooth scroll from "Shop Now" button
 document.getElementById("shop-now").addEventListener("click", () => {
   document.querySelector("main").scrollIntoView({ behavior: "smooth" });
-=======
 // Shopping cart
 let cartCount = 0;
 let cartItems = [];
@@ -121,5 +119,4 @@ form.addEventListener("submit", function(e) {
   e.preventDefault();
   formMessage.textContent = "Thanks for reaching out! We'll get back to you soon 🐾";
   form.reset();
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
 });
