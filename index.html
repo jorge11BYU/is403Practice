@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pawfect Pet Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">🐾 Pawfect Pet Store</div>
+    <nav>
+      <ul>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Everything Your Pet Needs 🐶🐱</h1>
+    <p>From toys to treats, we’ve got you covered.</p>
+    <button class="cta">Shop Now</button>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="products">
+    <h2>Popular Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://place-puppy.com/200x200" alt="Dog Toy">
+        <h3>Squeaky Bone Toy</h3>
+        <p>$9.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://placekitten.com/200/200" alt="Cat Food">
+        <h3>Premium Cat Food</h3>
+        <p>$14.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://placebear.com/200/200" alt="Pet Bed">
+        <h3>Cozy Pet Bed</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At Pawfect Pet Store, we believe pets are family. That’s why we provide
+      top-quality products, fun toys, and healthy treats that keep tails wagging
+      and whiskers twitching.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Cart Panel -->
+  <aside id="cartPanel" class="cart-panel">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <p id="cartTotal">Total: $0.00</p>
+    <button id="closeCart">Close</button>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Pawfect Pet Store | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
