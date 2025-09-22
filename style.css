@@ -215,3 +215,28 @@ footer {
 .cart-bounce {
   animation: bounce 0.3s;
 }
+/* Fix image and text alignment in shop section */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;          /* always span card width */
+  height: 180px;        /* consistent height for all images */
+  object-fit: cover;    /* crop while preserving aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+}
+
+.product-card h3, 
+.product-card p {
+  margin: 0.25rem 0;
+}
+
+.add-to-cart {
+  margin-top: auto;     /* pushes button down to keep alignment */
+}
+
