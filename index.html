@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PawPal Pet Store</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <div class="logo">🐾 PawPal Pet Store</div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#" id="cart-link">Cart 🛒 <span id="cart-count">0</span></a></li>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pawfect Pet Store</title>
@@ -36,102 +22,42 @@
 
   <!-- Hero Section -->
   <section class="hero">
-<<<<<<< HEAD
-    <div class="hero-content">
-      <h1>Everything Your Pet Deserves!</h1>
-      <p>Toys, treats, and accessories for your furry friends 🐶🐱</p>
-      <button id="shop-now">Shop Now</button>
-    </div>
-  </section>
-
-  <!-- Featured Products -->
-  <main id="products-page">
-    <h2 class="section-title">Featured Products</h2>
-    <div class="products">
-      <div class="product" data-name="Chew Toy" data-price="10">
-        <img src="https://images.unsplash.com/photo-1601758173928-3c66e4f72b77?w=400" alt="Chew Toy">
-        <h3>Chew Toy</h3>
-        <p class="price">$10.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="product" data-name="Cat Scratcher" data-price="25">
-        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a5?w=400" alt="Cat Scratcher">
-        <h3>Cat Scratcher</h3>
-        <p class="price">$25.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="product" data-name="Pet Bed" data-price="50">
-        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a5?w=400" alt="Pet Bed">
-        <h3>Pet Bed</h3>
-        <p class="price">$50.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="product" data-name="Pet Food Pack" data-price="30">
-        <img src="https://images.unsplash.com/photo-1610022438998-37031459c52e?w=400" alt="Pet Food Pack">
-        <h3>Pet Food Pack</h3>
-        <p class="price">$30.00</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-    </div>
-  </main>
-
-  <!-- Cart Page -->
-  <section id="cart-page" class="hidden">
-    <h2 class="section-title">Your Cart</h2>
-    <table id="cart-table">
-      <thead>
-        <tr>
-          <th>Item</th>
-          <th>Price</th>
-          <th>Remove</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-    <h3 id="cart-total">Total: $0.00</h3>
-    <button id="back-to-shop" class="primary-btn">Back to Shop</button>
-  </section>
-
-  <footer>
-    <p>© 2025 PawPal Pet Store | Love your pets 🐾</p>
-=======
     <h1>Everything Your Pet Needs 🐶🐱</h1>
     <p>From toys to treats, we’ve got you covered.</p>
     <button class="cta">Shop Now</button>
   </section>
 
-<!-- Shop Section -->
-<section id="shop" class="products">
-  <h2>Popular Products</h2>
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQgui-aqcWpkgXCng-sw5nZapaUUEWleG5CjUUkq6SORZicq4doU5wQO7XtGgw_9knlD9qoRQcMaYTAgbwOj3KWhba4bINI7gQ1e37-8wuuT-wZvGXTno5NiA" alt="Dog Toy">
-      <h3>Squeaky Bone Toy</h3>
-      <p>$9.99</p>
-      <button class="add-to-cart">Add to Cart</button>
+  <!-- Shop Section -->
+  <section id="shop" class="products">
+    <h2>Popular Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://place-puppy.com/200x200" alt="Dog Toy">
+        <h3>Squeaky Bone Toy</h3>
+        <p>$9.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://placekitten.com/200/200" alt="Cat Food">
+        <h3>Premium Cat Food</h3>
+        <p>$15.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://placebear.com/200/200" alt="Pet Bed">
+        <h3>Cozy Pet Bed</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
-    <div class="product-card">
-      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRB8AsA4KX-p0QNZTk8bkAsjK3Q8iDGrYJzVloJ3JJT8H89NJWh5F8a0z0tiOw5DH3sN-I5RC5ar6B1Rx9y_VWx80hPgUwbZ5R7J44ReKOgOwZAf0Tmrkl2ZlTNXKlesYzDlGaUSA&usqp=CAc" alt="Cat Food">
-      <h3>Premium Cat Food</h3>
-      <p>$14.99</p>
-      <button class="add-to-cart">Add to Cart</button>
-    </div>
-    <div class="product-card">
-      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQWoRgkEQQCogKp0qXvtM8O8DMoDn8rEykI8-MK4VWcxsoCpfsEbg62f0Pw5xlO-7z01wCdMqJeBwVnxOVBPg0-5H_lnGSH0aidef9nGad4eJjouTtAW2Ye" alt="Pet Bed">
-      <h3>Cozy Pet Bed</h3>
-      <p>$29.99</p>
-      <button class="add-to-cart">Add to Cart</button>
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- About Section -->
   <section id="about">
     <h2>About Us</h2>
     <p>
       At Pawfect Pet Store, we believe pets are family. That’s why we provide
-      top-quality products, fun toys, and healthy treats that keep tails wagging
-      and whiskers twitching.
+      top-quality products, fun toys, and healthy treats that keep tails wagging.
     </p>
   </section>
 
@@ -158,7 +84,6 @@
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Pawfect Pet Store | All Rights Reserved</p>
->>>>>>> 2f60d972d56b13f196c04ecd8695678c1e4162a7
   </footer>
 
   <script src="script.js"></script>

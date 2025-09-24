@@ -1,23 +1,33 @@
-/* Reset */
 /* General Styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
 }
 
 /* Fonts & Colors */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff8f0;
+=======
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
   color: #333;
   line-height: 1.6;
 }
 
 /* Header */
 header {
+<<<<<<< HEAD
   background: #ff7f50;
   color: white;
+=======
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
   background: #ff8c42;
   color: #fff;
   padding: 1rem 2rem;
@@ -26,7 +36,10 @@ header {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .logo {
+=======
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
 header .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -35,6 +48,7 @@ header .logo {
 nav ul {
   list-style: none;
   display: flex;
+<<<<<<< HEAD
   gap: 1.5rem;
 }
 
@@ -70,6 +84,8 @@ nav a:hover {
 .hero-content {
   position: relative;
   z-index: 1;
+=======
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
   gap: 1rem;
 }
 
@@ -88,7 +104,7 @@ nav button:hover, nav a:hover {
 
 /* Hero */
 .hero {
-  background: url('https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1558788353-f76d92427f16?fit=crop&w=1500&q=80') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 5rem 2rem;
@@ -99,6 +115,7 @@ nav button:hover, nav a:hover {
   margin-bottom: 1rem;
 }
 
+<<<<<<< HEAD
 .hero button {
   background: #ffd700;
   border: none;
@@ -120,6 +137,8 @@ nav button:hover, nav a:hover {
   margin: 2rem 0 1rem;
   font-size: 2rem;
   color: #ff7f50;
+=======
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
 .hero .cta {
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
@@ -136,6 +155,7 @@ nav button:hover, nav a:hover {
 
 /* Products */
 .products {
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
@@ -221,6 +241,8 @@ nav button:hover, nav a:hover {
 
 .primary-btn {
   background: #ff7f50 !important;
+=======
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
   padding: 3rem 2rem;
   text-align: center;
 }
@@ -299,11 +321,14 @@ form button:hover {
 
 /* Footer */
 footer {
+<<<<<<< HEAD
   background: #ff7f50;
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+=======
+>>>>>>> 98dabdf9390d6054eed0db6e2aa0a898795c0909
   background: #333;
   color: #fff;
   text-align: center;
@@ -366,3 +391,28 @@ footer {
 .cart-bounce {
   animation: bounce 0.3s;
 }
+/* Fix image and text alignment in shop section */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;          /* always span card width */
+  height: 180px;        /* consistent height for all images */
+  object-fit: cover;    /* crop while preserving aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+}
+
+.product-card h3, 
+.product-card p {
+  margin: 0.25rem 0;
+}
+
+.add-to-cart {
+  margin-top: auto;     /* pushes button down to keep alignment */
+}
+
